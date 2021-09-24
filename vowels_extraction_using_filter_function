@@ -1,0 +1,12 @@
+#given a string of length n, find out the vowels present in that string if yes then return the vowels?
+def process(brr):
+    letters=['a','e','i','o','u','A','E','I','I','O','U']
+    if brr in letters:
+        return True
+    else:
+        return False
+
+
+arr=input()
+V="".join(list((filter(process,arr))))
+print(V)    
